@@ -1,0 +1,135 @@
+body{
+    background-color: #e9ccfd;
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav_container{
+height: 10%;
+width: 100%;
+left: 0;
+top: 0;
+background-image: linear-gradient(rgb(240, 149, 234), rgb(192, 90, 240));
+box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+display: flex;
+align-items: center;
+column-gap: 11px;
+}
+
+.style_BTN{
+    padding: 9px 25px;
+    background-color: #FBC2EB;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 250px;
+}
+
+
+
+
+canvas{
+    border:5px solid #CB98ED;
+    background-color: white;
+    left: 5%;
+    width: 70%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+button:hover, .select:hover, select:hover{
+    background-color: #f59cde;
+}
+
+
+
+.btn{
+    padding: 9px 25px;
+    background-color: #FBC2EB;
+    border:2px solid #CB98ED;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 90%;
+    display: block;
+    position: center;
+    margin-bottom: 5px;
+    height: 3em;
+    position: relative;;
+    
+}
+
+
+.elements_container{
+    left: 5%;
+    position: fixed;
+    top: 15%;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    margin: 20px 0;
+    min-height: 500px;
+    
+}
+
+.Butoane_Grup{
+    width: 18%;
+    padding: 20px 20px;
+    border-radius: 30px;
+    border: 5px solid #CB98ED;
+
+}
+
+.Butoane_Grup .btn{
+    position: center;
+    margin-top: 5px;
+    margin-left: 8px;
+
+}
+
+select{
+outline: 0;
+box-shadow: 0;
+border: 0!important;
+width: 90%;
+background: none;
+}
+
+.select{
+    position: center;
+    display: flex;
+    width: 90%;
+    height: 3em;
+    line-height: 3em;
+    background: #FBC2EB;
+    margin-left: 8px;
+    padding: 9px 25px;
+    background-color: #FBC2EB;
+    border:2px solid #CB98ED;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.btn_addText{
+    padding: 9px 25px;
+    background-color: #fad7f0;
+    border:2px solid #CB98ED;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90%;
+    display: block;
+    position: center;
+    margin-bottom: 5px;
+    left:2%;
+    height: 3em;
+    position: relative;;
+    margin-left: 5px;
+}
